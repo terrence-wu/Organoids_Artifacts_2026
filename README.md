@@ -62,8 +62,7 @@ The reanalysis uses the supplementary tables of:
 > doi:10.1002/ijc.70453
 
 Download the supplementary file `ijc70453-sup-0002-tables.xlsx` from the article page and
-place it in `data/`. [[State whether the file is redistributed here; check the article's
-license first.]] No new experimental data were generated.
+place it in `data/`. No new experimental data were generated.
 
 ---
 
@@ -100,8 +99,7 @@ Bootstrap analyses use 10,000 resamples with seed 20260928.
 - **Units.** The solver works in cm and s. Diameters and radii in function arguments are
   in µm.
 - **Diameter vs radius.** `simulate(drug, R_um, ...)` takes the organoid **diameter**,
-  despite the argument name. [[Confirm, and note any other function whose `R_um` is a
-  radius, e.g. `oxygen_profile`.]]
+  despite the argument name. 
 - **Viability.** `simulate()` returns the volume-averaged cell-number multiplier from
   dosing to readout (1 at dosing). Its value at zero dose is the control fold-growth *G*.
 - **Surface condition.** `BC_FREE = True` sets the organoid surface to the dome's *free*

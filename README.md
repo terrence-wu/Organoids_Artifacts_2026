@@ -2,7 +2,7 @@
 
 Simulation and reanalysis code for:
 
-> Tsou and Wu. **Identifying Measurement Artifacts Driving Variability in Organoid Drug Screening.** *SLAS Discovery* 
+> Tsou and Wu. **"Identifying Measurement Artifacts Driving Variability in Organoid Drug Screening."** *SLAS Discovery* 
 
 Patient-derived organoid (PDO) drug screens usually read ATP luminescence once, at a
 fixed time after dosing, and divide each well by an untreated control. This repository
@@ -110,8 +110,7 @@ Bootstrap analyses use 10,000 resamples with seed 20260928.
 - **Oxygen.** `PHI_FROM_RADIUS = True` builds the Thiele modulus from the radius, as in
   Shi et al. (2026). `False` reproduces an earlier error and is kept only for comparison.
 - **Fixed geometry.** Organoid diameter is held at its dosing value for the whole assay.
-- **Agents.** Simulations use cisplatin and cetuximab. [[Remove or label any other entry
-  in `DRUGS`.]]
+- **Agents.** Simulations use cisplatin and cetuximab. 
 
 
 

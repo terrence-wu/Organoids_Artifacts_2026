@@ -119,8 +119,7 @@ Bootstrap analyses use 10,000 resamples with seed 20260928.
 
 ## Citation
 
-If you use this code, please cite the paper above. [[Add a `CITATION.cff` and an archived
-release DOI (e.g. Zenodo) so the exact version used in the paper can be cited.]]
+If you use this code, please cite the paper above. 
 
 ## License
 
@@ -128,4 +127,4 @@ GPL-3.0 License
 
 ## Contact
 
-[[Name, affiliation, email]]
+
